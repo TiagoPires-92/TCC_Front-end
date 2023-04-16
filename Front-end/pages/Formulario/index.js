@@ -1,3 +1,4 @@
+//Obrigado Deus!
 import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { useRouter } from 'next/router'
 import { Inter } from 'next/font/google'
