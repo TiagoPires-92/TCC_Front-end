@@ -78,11 +78,11 @@ const makeChartData = (form) => {
           xAxisKey: 'count'
         },
         backgroundColor: [
-          "#4b77a9",
-          "#5f255f",
-          "#d21243",
-          "#B27200",
-          "#06d6a0"
+          "#f08080",
+          "#00b4d8",
+          "#ffd166",
+          "#d90429",
+          "#4a7c59"
         ],
         borderColor: [
           'rgba(255, 99, 132, 1)',
