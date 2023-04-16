@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import { Inter } from 'next/font/google'
 import api from '../api/services/api';
 import { BsList } from 'react-icons/bs'
-import { geraDashboard } from './resumo';
+import { geraDashboard } from '../../components/resumo';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie as PieInternal } from 'react-chartjs-2';
 
@@ -151,8 +151,6 @@ export default function Dashboard() {
 
       const resumo = geraDashboard(dataForms);
       setResumo(resumo);
-
-      console.log("resumo", resumo);
     }
 
     buscaTudo();
