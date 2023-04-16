@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>n
+    <>
       <header className='fixed-top' id="header">
         <div className="container d-flex align-items-center justify-content-between">
 
@@ -36,8 +36,8 @@ export default function Home() {
               com o local em que você esteja, tempo que você tem para ficar conectado e horário que for conectar.
               Mesmo que você esteja na correria do dia a dia e não tem tempo para fazer aquela busca aprofundada
               na plataforma. Sendo assim a Netflix Priority é uma oportunidade, com esse serviço de personalizar
-              suas preferências, desta forma poderia ser feito de forma programada a sua necessidade temporária ou
-              efetiva, atribuindo segurança e privacidade, de acordo com sua característica individual ou coletiva.
+              suas preferências, todavia feito de forma programada a sua necessidade temporária ou efetiva,
+              atribuindo segurança e privacidade, de acordo com sua característica individual ou coletiva.
             </p>
 
           </div>

@@ -13,7 +13,7 @@ export default function Formulario() {
     }, [])
 
     const router = useRouter();
-    
+
     const [genero, setGenero] = useState('');
     const [estado_civil, setEstado_civil] = useState('');
     const [idade, setIdade] = useState('');
