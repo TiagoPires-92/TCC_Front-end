@@ -45,6 +45,9 @@ const optionsQuebrado = {
       },
       color: "#fff"
     },
+    options: {
+      responsive: true,
+    },
     legend:
     {
       maxWidth: 20,

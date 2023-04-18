@@ -555,8 +555,7 @@ p {
 
 .graph {
   width: 50%;
-  height: 500px;
-  /* padding: 10px; */
+  padding: 10px;
   margin-bottom: 20px;
 }
 
@@ -569,7 +568,6 @@ p {
 }
 
 .types {
-
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -584,4 +582,9 @@ p {
   background-position: 0 100%;
   background-size: 100% 2px;
   background-repeat: repeat-x;
+}
+
+.data {
+  margin-right: 0;
+  margin-left: 0;
 }
